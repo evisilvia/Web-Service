@@ -9,5 +9,5 @@ public class NetworkUtiles {
     private static final String MAX_RESULT = "maxResults";
     private static final String PRINT_TYPE = "pritType";
 
-    
+
 }
