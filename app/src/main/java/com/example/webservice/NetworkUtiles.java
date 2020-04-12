@@ -13,11 +13,11 @@ public class NetworkUtiles {
     private static final String PRINT_TYPE = "pritType";
 
 
-//    static String getMahasiswa(String queryString){
+//    static String getBookInfo(String queryString){
 //        HttpURLConnection urlConnection = null;
 //        BufferedReader reader = null;
 //    }
-        
+
 
 
 

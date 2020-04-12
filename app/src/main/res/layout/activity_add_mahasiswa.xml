@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMahasiswaActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nrpMhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NRP"
+        android:inputType="number"
+        android:maxLength="9" />
+
+    <EditText
+        android:id="@+id/namaMhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:maxLength="30"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program Studi" />
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert" />
+
+</LinearLayout>
